@@ -1,7 +1,7 @@
 variable "aws_region" {
   description = "AWS region"
   type        = string
-  default     = "us-west-1"
+  default     = "us-east-1"
 }
 
 variable "vpc_cidr_block" {
@@ -76,4 +76,4 @@ variable "resource_tags" {
 variable "ec2_instance_type" {
   description = "AWS EC2 instance type."
   type        = string
-}# Variable declarations
+}
